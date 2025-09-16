@@ -1,0 +1,18 @@
+# OPTIONAL profile (aggressive) – only if you don't use these features
+# Cloud/TSM/SIM activation (skip if you plan to use Mi Unlock or Mi Cloud soon)
+com.miui.cloudbackup
+com.miui.cloudservice
+com.miui.tsmclient
+com.xiaomi.simactivate.service
+
+# Wallpapers/Scanner
+com.miui.miwallpaper
+com.xiaomi.scanner
+
+# Partner bloat (if present)
+com.facebook.katana
+com.facebook.system
+com.facebook.appmanager
+com.facebook.services
+com.netflix.partner.activation
+com.amazon.appmanager

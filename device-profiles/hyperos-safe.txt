@@ -1,0 +1,26 @@
+# SAFE profile (recommended) – disable or uninstall for user 0 if disable fails
+# Ads/analytics/telemetry
+com.miui.analytics
+com.miui.msa.global
+com.miui.daemon
+
+# GetApps / Games / Quick Apps
+com.xiaomi.mipicks
+com.xiaomi.glgm
+com.miui.hybrid
+com.miui.hybrid.accessory
+
+# Mi utilities (alternatives exist)
+com.xiaomi.midrop            # ShareMe
+com.miui.videoplayer         # Mi Video
+com.miui.player              # Mi Music
+com.miui.weather2            # Weather
+com.miui.screenrecorder      # Screen recorder
+com.miui.compass             # Compass
+com.miui.notes               # Notes
+com.miui.yellowpage          # Yellow pages
+com.miui.fm                  # FM Radio (if present)
+com.miui.personalassistant   # App Vault / minus screen
+com.miui.feedback
+com.miui.bugreport
+com.xiaomi.mi_connect_service
