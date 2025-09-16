@@ -1,8 +1,8 @@
+#!/usr/bin/env bash
 # DISCLAIMER: This tool is provided as-is, without warranties.
 # You accept all risks. The author(s) are not responsible for any damage,
 # data loss, boot issues, or consequences. Not affiliated with Xiaomi/POCO/Redmi.
 
-#!/usr/bin/env bash
 set -euo pipefail
 
 # Universal HyperOS debloat via ADB (no root).
@@ -71,7 +71,8 @@ need_device() {
 }
 
 backup_packages() {
-  local fn="packages-backup-$(date +%F).txt"
+  local fn
+  fn="packages-backup-$(date +%F).txt"
   echo "📦 Creating package backup list: ${fn}" | tee -a "${logfile}"
   ${ADB_BIN} shell "pm list packages -f" | sed 's/^package://g' > "${fn}"
 }
