@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform: ADB](https://img.shields.io/badge/Platform-ADB-blue.svg)
+![Shell](https://img.shields.io/badge/Shell-bash-informational)
+
 
 # hyperos-debloat
 
